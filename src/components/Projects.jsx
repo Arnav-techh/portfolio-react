@@ -6,12 +6,13 @@ const Projects = () => {
       </h2>
 
       <div className="proj-grid">
-        {/* First row */}
         <div className="proj-row">
-          {/* MediTrack */}
           <article className="proj-card">
             <div className="proj-thumb">
-              <img src="/assests/meditrack.jpg" alt="MediTrack – Say No to Drugs" />
+              <img
+                src="/portfolio-react/assests/meditrack.jpg"
+                alt="MediTrack – Say No to Drugs"
+              />
             </div>
             <div className="proj-body">
               <h3>MediTrack – Say No to Drugs</h3>
@@ -32,10 +33,12 @@ const Projects = () => {
             </div>
           </article>
 
-          {/* SMS Spam Detection */}
           <article className="proj-card">
             <div className="proj-thumb">
-              <img src="/assests/sms-spam.jpg" alt="SMS Spam Detection" />
+              <img
+                src="/portfolio-react/assests/sms-spam.jpg"
+                alt="SMS Spam Detection"
+              />
             </div>
             <div className="proj-body">
               <h3>SMS Spam Detection</h3>
@@ -56,10 +59,12 @@ const Projects = () => {
             </div>
           </article>
 
-          {/* Python Paint */}
           <article className="proj-card">
             <div className="proj-thumb">
-              <img src="/assests/py-paint.jpg" alt="Python Paint Application" />
+              <img
+                src="/portfolio-react/assests/py-paint.jpg"
+                alt="Python Paint Application"
+              />
             </div>
             <div className="proj-body">
               <h3>Python Paint Application</h3>
@@ -79,12 +84,13 @@ const Projects = () => {
           </article>
         </div>
 
-        {/* Second row */}
         <div className="proj-row">
-          {/* SaaS Website Builder */}
           <article className="proj-card">
             <div className="proj-thumb">
-              <img src="/assests/saas-web.jpeg" alt="SaaS Website Builder" />
+              <img
+                src="/portfolio-react/assests/saas-web.jpeg"
+                alt="SaaS Website Builder"
+              />
             </div>
             <div className="proj-body">
               <h3>SaaS Website Builder</h3>
@@ -105,10 +111,12 @@ const Projects = () => {
             </div>
           </article>
 
-          {/* Salesforce Project Management Portal */}
           <article className="proj-card">
             <div className="proj-thumb">
-              <img src="/assests/salesforce-p.jpeg" alt="Salesforce Project Management Portal" />
+              <img
+                src="/portfolio-react/assests/salesforce-p.jpeg"
+                alt="Salesforce Project Management Portal"
+              />
             </div>
             <div className="proj-body">
               <h3>Salesforce Project Management Portal</h3>

@@ -17,7 +17,7 @@ const Experience = () => {
             </ul>
           </div>
           <a
-            href="/assests/web-dev-internship.pdf"
+            href="/portfolio-react/assests/web-dev-internship.pdf"
             className="exp-doc-link"
             target="_blank"
             rel="noreferrer"
@@ -38,11 +38,11 @@ const Experience = () => {
             <ul>
               <li>Built automation workflows using UiPath</li>
               <li>Automated repetitive business processes</li>
-              <li>Hands‑on experience with bots &amp; orchestration</li>
+              <li>Hands‑on experience with bots & orchestration</li>
             </ul>
           </div>
           <a
-            href="/assests/uipath-training.pdf"
+            href="/portfolio-react/assests/uipath-training.pdf"
             className="exp-doc-link"
             target="_blank"
             rel="noreferrer"

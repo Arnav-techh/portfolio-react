@@ -37,10 +37,12 @@ const Contact = () => {
         Get In Touch<div className="underline"></div>
       </h2>
       <div className="contact-grid">
-        {/* LEFT CARD same as pehle wala, agar already hai to use hi rakho */}
         <div className="contact-card contact-profile">
           <div className="contact-photo-wrap">
-            <img src="/assests/arnav.jpg" alt="Arnav Kaneriya" />
+            <img
+              src="/portfolio-react/assests/arnav.jpg"
+              alt="Arnav Kaneriya"
+            />
           </div>
           <p className="contact-tagline">
             Need a dev, a teammate, or just a meme partner? I’m available.
@@ -61,7 +63,11 @@ const Contact = () => {
             >
               <i className="bx bxl-linkedin"></i>
             </a>
-            <a href="https://github.com/Arnav-techh" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Arnav-techh"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="bx bxl-github"></i>
             </a>
             <a
@@ -74,7 +80,6 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* RIGHT: form -> backend */}
         <div className="contact-card">
           <form onSubmit={handleSubmit}>
             <input
