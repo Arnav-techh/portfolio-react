@@ -92,6 +92,22 @@ const Hero = () => {
               >
                 <i className="bx bxl-instagram"></i>
               </a>
+              <a
+    href="https://api.whatsapp.com/send?phone=917909895850&text=Hi%20Arnav%2C%20I%20just%20visited%20your%20portfolio%20and%20would%20like%20to%20connect."
+    className="icon-btn hero-icon"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <i className="bx bxl-whatsapp"></i>
+  </a>
+  <a
+    href="mailto:kaneriyaarnav@gmail.com?subject=Let%27s%20connect&body=Hi%20Arnav%2C%0A%0AI%20just%20visited%20your%20portfolio."
+    className="icon-btn hero-icon"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <i className="bx bx-envelope"></i>
+  </a>
             </div>
           </div>
         </div>
