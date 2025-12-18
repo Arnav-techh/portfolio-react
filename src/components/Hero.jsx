@@ -54,13 +54,9 @@ const Hero = () => {
             I am <span>{text}</span>
           </h3>
 
-          {/*<p className="hero-subtitle-top hero-tech-line">
-            Tech I use: <strong>Python · React · Salesforce · SQL · Git</strong>
-          </p>*/}
-
           <div className="btns">
             <a
-              href="/assests/Arnav_Kaneriya_Resume.pdf"
+              href="/portfolio-react/assests/Arnav_Kaneriya_Resume.pdf"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -102,7 +98,10 @@ const Hero = () => {
 
         <div className="hero-photo-wrap">
           <div className="hero-photo-circle">
-            <img src="/assests/profile.jpg" alt="Arnav Kaneriya" />
+            <img
+              src="/portfolio-react/assests/profile.jpg"
+              alt="Arnav Kaneriya"
+            />
           </div>
         </div>
       </div>
