@@ -40,7 +40,7 @@ const Contact = () => {
         <div className="contact-card contact-profile">
           <div className="contact-photo-wrap">
             <img
-              src="/portfolio-react/assests/arnav.jpg"
+              src="/portfolio/assests/arnav.jpg"
               alt="Arnav Kaneriya"
             />
           </div>

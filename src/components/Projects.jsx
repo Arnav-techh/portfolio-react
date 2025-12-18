@@ -10,7 +10,7 @@ const Projects = () => {
           <article className="proj-card">
             <div className="proj-thumb">
               <img
-                src="/portfolio-react/assests/meditrack.jpg"
+                src="/portfolio/assests/meditrack.jpg"
                 alt="MediTrack – Say No to Drugs"
               />
             </div>
@@ -36,7 +36,7 @@ const Projects = () => {
           <article className="proj-card">
             <div className="proj-thumb">
               <img
-                src="/portfolio-react/assests/sms-spam.jpg"
+                src="/portfolio/assests/sms-spam.jpg"
                 alt="SMS Spam Detection"
               />
             </div>
@@ -62,7 +62,7 @@ const Projects = () => {
           <article className="proj-card">
             <div className="proj-thumb">
               <img
-                src="/portfolio-react/assests/py-paint.jpg"
+                src="/portfolio/assests/py-paint.jpg"
                 alt="Python Paint Application"
               />
             </div>
@@ -88,7 +88,7 @@ const Projects = () => {
           <article className="proj-card">
             <div className="proj-thumb">
               <img
-                src="/portfolio-react/assests/saas-web.jpeg"
+                src="/portfolio/assests/saas-web.jpeg"
                 alt="SaaS Website Builder"
               />
             </div>
@@ -114,7 +114,7 @@ const Projects = () => {
           <article className="proj-card">
             <div className="proj-thumb">
               <img
-                src="/portfolio-react/assests/salesforce-p.jpeg"
+                src="/portfolio/assests/salesforce-p.jpeg"
                 alt="Salesforce Project Management Portal"
               />
             </div>

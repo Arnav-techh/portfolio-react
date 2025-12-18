@@ -56,7 +56,7 @@ const Hero = () => {
 
           <div className="btns">
             <a
-              href="/portfolio-react/assests/Arnav_Kaneriya_Resume.pdf"
+              href="/portfolio/assests/Arnav_Kaneriya_Resume.pdf"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -115,7 +115,7 @@ const Hero = () => {
         <div className="hero-photo-wrap">
           <div className="hero-photo-circle">
             <img
-              src="/portfolio-react/assests/profile.jpg"
+              src="/portfolio/assests/profile.jpg"
               alt="Arnav Kaneriya"
             />
           </div>
