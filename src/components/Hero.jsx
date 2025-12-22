@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 
 const roles = [
-  "a Python Developer",
-  "a Web Developer",
-  "an AI/ML Enthusiast",
-  "a Salesforce Administrator",
+  "Full Stack Developer",
+  "Salesforce Developer", 
+  "Python Developer",
+  "AI/ML Enthusiast",
+  "React Developer",
+  "Cloud Enthusiast"
 ];
 
 const Hero = () => {
@@ -15,8 +17,8 @@ const Hero = () => {
 
   useEffect(() => {
     const current = roles[roleIndex];
-    const typingSpeed = isDeleting ? 60 : 120;
-    const pauseAfterWord = 800;
+    const typingSpeed = isDeleting ? 80 : 150;
+    const pauseAfterWord = 1200;
 
     const timer = setTimeout(() => {
       if (!isDeleting && charIndex < current.length) {
@@ -38,85 +40,101 @@ const Hero = () => {
 
   return (
     <section className="hero">
-      <div className="hero-inner">
-        <div className="hero-text">
-          <h4 className="hero-tag">Hello!, I'm</h4>
+      <div className="hero-inner" data-aos="fade-up" data-aos-duration="1200">
+        <div className="hero-text" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+          {/* Enhanced Tagline */}
+          <h4 className="hero-tag" data-aos="fade-up" data-aos-delay="100">
+            👋 Hi, my name is
+          </h4>
 
-          <h1>
-            Arnav <span>Kaneriya</span>
+          {/* Name with Gradient Effect */}
+          <h1 data-aos="fade-up" data-aos-delay="300">
+            Arnav <span className="gradient-name">Kaneriya</span>
           </h1>
 
-          <p className="hero-subtitle-top hero-main-subtitle">
-            Bridging data, design and cloud to build scalable digital experiences.
-          </p>
+          {/* Improved Subtitle */}
+          <p className="hero-subtitle-top hero-main-subtitle" data-aos="fade-up" data-aos-delay="400">
+  Bridging data, design and cloud to build scalable digital experiences.
+</p>
 
-          <h3 className="typing-text hero-role">
+          {/* Enhanced Typing Animation */}
+          <h3 className="typing-text hero-role" data-aos="fade-up" data-aos-delay="500">
             I am <span>{text}</span>
+            <span className="cursor">|</span>
           </h3>
 
-          <div className="btns">
+          {/* Improved CTA Section */}
+          <div className="btns hero-buttons" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
             <a
               href="/portfolio/assests/Arnav_Kaneriya_Resume.pdf"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
+              download
             >
-              View Resume
+              📄 Download Resume
             </a>
-            <a href="#contact" className="btn btn-outline">
-              Let&apos;s Talk
+            <a href="#contact" className="btn btn-outline" onClick={() => document.querySelector('#contact')?.scrollIntoView({behavior: 'smooth'})}>
+              💬 Let's Connect
             </a>
+          </div>
 
-            <div className="hero-socials">
-              <a
-                href="https://github.com/Arnav-techh"
-                className="icon-btn hero-icon"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bx bxl-github"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/arnav-kaneriya"
-                className="icon-btn hero-icon"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bx bxl-linkedin"></i>
-              </a>
-              <a
-                href="https://www.instagram.com/arnav_kaneriya/"
-                className="icon-btn hero-icon"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="bx bxl-instagram"></i>
-              </a>
-              <a
-    href="https://api.whatsapp.com/send?phone=917909895850&text=Hi%20Arnav%2C%20I%20just%20visited%20your%20portfolio%20and%20would%20like%20to%20connect."
-    className="icon-btn hero-icon"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <i className="bx bxl-whatsapp"></i>
-  </a>
-  <a
-    href="mailto:kaneriyaarnav@gmail.com?subject=Let%27s%20connect&body=Hi%20Arnav%2C%0A%0AI%20just%20visited%20your%20portfolio."
-    className="icon-btn hero-icon"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <i className="bx bx-envelope"></i>
-  </a>
-            </div>
+          {/* Socials with Proper Spacing */}
+          <div className="hero-socials mt-large" data-aos="zoom-in" data-aos-delay="800">
+            <a
+              href="https://github.com/Arnav-techh"
+              className="icon-btn hero-icon"
+              target="_blank"
+              rel="noreferrer"
+              title="GitHub"
+            >
+              <i className="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/arnav-kaneriya"
+              className="icon-btn hero-icon"
+              target="_blank"
+              rel="noreferrer"
+              title="LinkedIn"
+            >
+              <i className="bx bxl-linkedin"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/arnav_kaneriya/"
+              className="icon-btn hero-icon"
+              target="_blank"
+              rel="noreferrer"
+              title="Instagram"
+            >
+              <i className="bx bxl-instagram"></i>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=917909895850&text=Hi%20Arnav%2C%20I%20just%20visited%20your%20portfolio%20and%20would%20like%20to%20connect."
+              className="icon-btn hero-icon"
+              target="_blank"
+              rel="noreferrer"
+              title="WhatsApp"
+            >
+              <i className="bx bxl-whatsapp"></i>
+            </a>
+            <a
+              href="mailto:kaneriyaarnav@gmail.com?subject=Let's%20connect&body=Hi%20Arnav%2C%0A%0AI%20just%20visited%20your%20portfolio."
+              className="icon-btn hero-icon"
+              target="_blank"
+              rel="noreferrer"
+              title="Email"
+            >
+              <i className="bx bx-envelope"></i>
+            </a>
           </div>
         </div>
 
-        <div className="hero-photo-wrap">
+        <div className="hero-photo-wrap" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1200">
           <div className="hero-photo-circle">
             <img
               src="/portfolio/assests/profile.jpg"
-              alt="Arnav Kaneriya"
+              alt="Arnav Kaneriya - Full Stack Developer"
+              loading="lazy"
             />
           </div>
         </div>

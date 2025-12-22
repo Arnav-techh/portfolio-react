@@ -1,13 +1,17 @@
 const Projects = () => {
   return (
     <section id="projects" className="projects">
-      <h2 className="title">
+      <h2 className="title" data-aos="fade-up" data-aos-duration="800">
         Featured Projects<div className="underline"></div>
       </h2>
 
-      <div className="proj-grid">
-        <div className="proj-row">
-          <article className="proj-card">
+      <div className="proj-grid" data-aos="fade-up" data-aos-delay="200" data-aos-duration="900">
+        
+        {/* First Row */}
+        <div className="proj-row" data-aos="fade-up" data-aos-delay="300">
+          
+          {/* MediTrack */}
+          <article className="proj-card" data-aos="zoom-in" data-aos-delay="350" data-aos-duration="800">
             <div className="proj-thumb">
               <img
                 src="/portfolio/assests/meditrack.jpg"
@@ -17,7 +21,7 @@ const Projects = () => {
             <div className="proj-body">
               <h3>MediTrack – Say No to Drugs</h3>
               <p className="proj-tagline">
-                Digital health platform promoting safe medication and anti‑drug awareness.
+                Digital health platform promoting safe medication and anti-drug awareness.
               </p>
               <p className="proj-tech">
                 React · Bootstrap · MUI · Framer Motion · Google Maps API
@@ -33,7 +37,8 @@ const Projects = () => {
             </div>
           </article>
 
-          <article className="proj-card">
+          {/* SMS Spam */}
+          <article className="proj-card" data-aos="zoom-in" data-aos-delay="450" data-aos-duration="800">
             <div className="proj-thumb">
               <img
                 src="/portfolio/assests/sms-spam.jpg"
@@ -43,10 +48,10 @@ const Projects = () => {
             <div className="proj-body">
               <h3>SMS Spam Detection</h3>
               <p className="proj-tagline">
-                ML app that classifies SMS as spam or ham with a full end‑to‑end pipeline.
+                ML app that classifies SMS as spam or ham with a full end-to-end pipeline.
               </p>
               <p className="proj-tech">
-                Python · Pandas · Scikit‑learn · NLTK · Streamlit
+                Python · Pandas · Scikit-learn · NLTK · Streamlit
               </p>
               <a
                 href="https://github.com/Arnav-techh/SMS-Spam-Detection"
@@ -59,7 +64,8 @@ const Projects = () => {
             </div>
           </article>
 
-          <article className="proj-card">
+          {/* Python Paint */}
+          <article className="proj-card" data-aos="zoom-in" data-aos-delay="550" data-aos-duration="800">
             <div className="proj-thumb">
               <img
                 src="/portfolio/assests/py-paint.jpg"
@@ -69,7 +75,7 @@ const Projects = () => {
             <div className="proj-body">
               <h3>Python Paint Application</h3>
               <p className="proj-tagline">
-                Tkinter‑based desktop drawing app with multiple tools and color controls.
+                Tkinter-based desktop drawing app with multiple tools and color controls.
               </p>
               <p className="proj-tech">Python · Tkinter</p>
               <a
@@ -84,8 +90,11 @@ const Projects = () => {
           </article>
         </div>
 
-        <div className="proj-row">
-          <article className="proj-card">
+        {/* Second Row - Centered */}
+        <div className="proj-row" data-aos="fade-up" data-aos-delay="650">
+          
+          {/* SaaS Builder */}
+          <article className="proj-card" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="800">
             <div className="proj-thumb">
               <img
                 src="/portfolio/assests/saas-web.jpeg"
@@ -95,7 +104,7 @@ const Projects = () => {
             <div className="proj-body">
               <h3>SaaS Website Builder</h3>
               <p className="proj-tagline">
-                Drag‑and‑drop platform for creating responsive websites without code.
+                Drag-and-drop platform for creating responsive websites without code.
               </p>
               <p className="proj-tech">
                 React · Node · Express · MongoDB · AWS
@@ -111,7 +120,8 @@ const Projects = () => {
             </div>
           </article>
 
-          <article className="proj-card">
+          {/* Salesforce Portal */}
+          <article className="proj-card" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="900">
             <div className="proj-thumb">
               <img
                 src="/portfolio/assests/salesforce-p.jpeg"
@@ -121,7 +131,7 @@ const Projects = () => {
             <div className="proj-body">
               <h3>Salesforce Project Management Portal</h3>
               <p className="proj-tagline">
-                Role‑based portal on Experience Cloud for managing projects, sprints and backlogs.
+                Role-based portal on Experience Cloud for managing projects, sprints and backlogs.
               </p>
               <p className="proj-tech">
                 Apex · LWC · Experience Cloud · Custom Objects · Triggers
