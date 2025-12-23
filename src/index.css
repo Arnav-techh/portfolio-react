@@ -85,30 +85,7 @@ body {
 }
 
 /* THEME TOGGLE */
-.theme-toggle {
-  width: 3.4rem;
-  height: 3.4rem;
-  border-radius: 999px;
-  border: 1px solid var(--border-soft);
-  background: rgba(255,255,255,0.04);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: #ffd166;
-  font-size: 2rem;
-  transition: background 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease, color 0.25s ease;
-}
 
-.theme-toggle:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 0 14px rgba(199,112,255,0.5);
-}
-
-body.light .theme-toggle {
-  color: #0f172a;
-  background: #f3e8ff;
-}
 
 /* HAMBURGER (DESKTOP HIDE) */
 .mobile-menu-toggle {
@@ -514,6 +491,11 @@ body.light .icon-btn, body.light .hero-icon {
 /* ABOUT */
 .about {
   background: radial-gradient(circle at top left, #a855f7 0, #2b1055 40%, #1a103f 100%);
+
+
+
+
+
   padding: 12rem 8% 8rem;
 }
 

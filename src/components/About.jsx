@@ -16,14 +16,14 @@ const About = () => {
           </p>
         </div>
         <div className="profile-stats-simple">
-          <span>8+ Projects</span>
-          <span>3 Years Coding</span>
-          <span>10+ Tech Stack</span>
+          <span>5 Years Coding</span>
+          <span>10+ Projects</span>
+          <span>15+ Tech Stack</span>
         </div>
       </div>
 
       {/* SKILLS HIGHLIGHTS - SAME AS BEFORE */}
-      <div className="skills-highlight" data-aos="fade-up" data-aos-delay="400">
+      {/* <div className="skills-highlight" data-aos="fade-up" data-aos-delay="400">
         <h3 className="skills-title">What I Do</h3>
         <div className="skills-row">
           <div className="skill-group">
@@ -51,7 +51,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* PERSONALITY CARDS - SAME AS "What Brings Me" */}
       <div className="about-personality" data-aos="fade-up" data-aos-delay="600">
@@ -74,6 +74,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

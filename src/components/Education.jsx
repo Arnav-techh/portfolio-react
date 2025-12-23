@@ -46,9 +46,9 @@ const Education = () => {
           <div className="edu-timeline-content">
             <div className="edu-header">
               <span className="edu-year">2021 - 2025</span>
-              <span className="edu-badge">Ongoing</span>
+              <span className="edu-badge">Completed</span>
             </div>
-            <h3>B.Tech Computer Science & Engineering</h3>
+            <h3>B.Tech (Computer Science & Engineering)</h3>
             <p>Medi-Caps University, Indore</p>
             <div className="edu-focus">
               <i className='bx bx-code-alt'></i>

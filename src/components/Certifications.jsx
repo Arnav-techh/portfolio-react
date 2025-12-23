@@ -37,7 +37,7 @@ const Certificate = () => {
               <p className="ach-meta">Certificate</p>
               <div className="ach-links-row">
                 <a
-                  href="assests/full-stack-cert.pdf"
+                  href="/portfolio/assests/full-stack-cert.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="ach-link"
